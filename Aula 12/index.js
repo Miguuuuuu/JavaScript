@@ -20,10 +20,10 @@ console.log(string2.match(/[a-z]/g));
 console.log(string2.search(/[a-z]/));
 console.log(string2.replace(/r/g, '#'));
 console.log(string2.length);
-console.log(string2.slice(32))
-console.log(string2.slice(-3));
-console.log(string2.slice(-5, string2.length -1));
-console.log(string2.substring(string2.length -5, string2.length -1));
-console.log(string2.split(' ', 3));
-console.log(string2.toUpperCase());
-console.log(string2.toLowerCase());
+console.log(string2.slice(32)) //
+console.log(string2.slice(-3)); //
+console.log(string2.slice(-5, string2.length -1)); //
+console.log(string2.substring(string2.length -5, string2.length -1)); //
+console.log(string2.split(' ', 3)); //
+console.log(string2.toUpperCase()); //
+console.log(string2.toLowerCase()); //
