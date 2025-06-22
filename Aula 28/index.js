@@ -29,9 +29,8 @@ function formataData(data) {
     const ano = zeroAEsquerda(data.getFullYear());
     const hora = zeroAEsquerda(data.getHours());
     const min = zeroAEsquerda(data.getMinutes());
-    const seg = zeroAEsquerda(data.getSeconds());
 
-    return `${dia}/${mes}/${ano} ${hora}:${min}:${seg}`;
+    return `${dia}/${mes}/${ano} ${hora}:${min}`;
 }
 
 const data = new Date();
